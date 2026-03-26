@@ -16,8 +16,8 @@ const Footer = () => {
         <div>
             <p className='text-xl font-medium mb-5'>COMPANY</p>
             <ul className='flex flex-col gap-1 text-gray-600 cursor-pointer'>
-                <li>Home</li>
-                <li>About us</li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About us</a></li>
                 <li>Delivery</li>
                 <li>Privacy policy</li>
 
@@ -28,7 +28,7 @@ const Footer = () => {
             <p className='text-xl font-medium mb-5'>GET IN TOUCH</p>
             <ul className='flex flex-col gap-1 text-gray-600'>
                 <li>+234-813-061-9908</li>
-                <li>contact@foreveryou.com</li>
+                <li>contact@swipeyou.com</li>
             </ul>
         </div>
 
@@ -36,7 +36,7 @@ const Footer = () => {
 
         <div>
             <hr />
-            <p className='py-5 text-sm text-center'>Copyright 2025 @forever.com - All Rights Reserved.</p>
+            <p className='py-5 text-sm text-center'>Copyright 2025 @swipe.com - All Rights Reserved.</p>
         </div>
 
 
