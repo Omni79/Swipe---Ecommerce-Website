@@ -42,7 +42,7 @@ const Product = () => {
       <div className="flex gap-12 sm:gap-12 flex-col sm:flex-row">
         
         {/* ---------- Image Section ---------- */}
-        <div className="flex flex-col gap-6 w-1/2">
+        <div className="flex flex-col gap-6 md:w-1/2">
           
           {/* Main Image */}
           <figure className="w-full bg-gray-100 rounded-lg overflow-hidden">
@@ -50,7 +50,7 @@ const Product = () => {
               <img
                 src={image}
                 alt={`${productData.name} screenshot`}
-                className="w-full h-[550px] object-cover"
+                className="w-full h-[400px] md:h-[550px] object-cover"
               />
             )}
           </figure>
